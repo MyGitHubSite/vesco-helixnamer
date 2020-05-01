@@ -1,0 +1,747 @@
+#!SHORT_NAME
+################################################################################
+# Augmenting Categories
+################################################################################
+Distort
+ Dist (m)
+Dyn
+ Dyn (m)
+EQ
+ EQ (s)
+Mod
+ Mod (s)
+Delay
+ Delay (s)
+Reverb
+ Verb (s)
+Pitch
+ Pitch (m)
+Filter
+ Filter (s)
+#!RAW_STRING
+################################################################################
+# Amp/Preamp Models (Mono)
+################################################################################
+WhoWatt 100
+Hiwatt® DR-103 Brill
+Soup Pro
+Supro® S6616
+Stone Age 185
+Gibson® EH-185
+Voltage Queen
+Victoria Electro King
+Tweed Blues Nrm
+Fender® Bassman® (normal channel)
+Tweed Blues Brt
+Fender® Bassman® (bright channel)
+Fullerton Nrm
+Fender® 5C3 Tweed Deluxe (normal channel)
+Fullerton Brt
+Fender® 5C3 Tweed Deluxe (bright channel)
+Fullerton Jump
+Fender® 5C3 Tweed Deluxe (jumped)
+Grammatico Nrm
+Grammatico LaGrange (normal channel)
+Grammatico Brt
+Grammatico LaGrange (bright channel)
+Grammatico Jump
+Grammatico LaGrange (jumped)
+US Small Tweed
+Fender® Champ®
+US Deluxe Nrm
+Fender® Deluxe Reverb® (normal channel)
+US Deluxe Vib
+Fender® Deluxe Reverb® (vibrato channel)
+US Double Nrm
+ Fender® Twin Reverb® (normal channel)
+US Double Vib
+ Fender® Twin Reverb® (vibrato channel)
+Mail Order Twin
+ Silvertone® 1484
+Divided Duo
+ ÷13 JRT 9/15
+Interstate Zed
+ Dr Z® Route 66
+Derailed Ingrid
+ Trainwreck® Circuits Express
+Jazz Rivet 120
+ Roland® JC-120 Jazz Chorus
+Essex A15
+ Vox® AC-15
+Essex A30
+ Vox® AC-30 with top boost
+A30 Fawn Nrm
+ Vox® AC-30 Fawn (normal channel)
+A30 Fawn Brt
+ Vox® AC-30 Fawn (bright channel)
+Matchstick Ch1
+ Matchless® DC30 (channel 1)
+Matchstick Ch2
+ Matchless® DC30 (channel 2)
+Matchstick Jump
+ Matchless® DC30 (jumped)
+Mandarin 80
+ Orange® OR80
+Brit J45 Nrm
+ Marshall® JTM-45 (normal channel)
+Brit J45 Brt
+ Marshall® JTM-45 (bright channel)
+Brit Trem Nrm
+ Marshall® JTM-50 (normal channel)
+Brit Trem Brt
+ Marshall® JTM-50 (bright channel)
+Brit Trem Jump
+ Marshall® JTM-50 (jumped)
+Brit Plexi Nrm
+ Marshall® Super Lead 100 (normal channel)
+Brit Plexi Brt
+ Marshall® Super Lead 100 (bright channel)
+Brit Plexi Jump
+ Marshall® Super Lead 100 (jumped)
+Brit P75 Nrm
+ Park® 75 (normal channel)
+Brit P75 Brt
+ Park® 75 (bright channel)
+Brit 2204
+ Marshall® JCM-800
+Placater Clean
+ Friedman BE-100 (clean channel)
+Placater Dirty
+ Friedman BE-100 (BE/HBE channel)
+Cartographer
+ Ben Adrian Cartographer
+German Mahadeva
+ Bogner® Shiva
+German Ubersonic
+ Bogner® Überschall®
+Cali Texas Ch 1
+ MESA/Boogie® Lone Star (clean channel)
+Cali Texas Ch 2
+ MESA/Boogie® Lone Star (drive channel)
+Cali IV Rhythm 1
+ MESA/Boogie® Mark IV (channel I)
+Cali IV Rhythm 2
+ MESA/Boogie® Mark IV (channel II)
+Cali IV Lead
+ MESA/Boogie® Mark IV (lead channel)
+Cali Rectifire
+ MESA/Boogie® Dual Rectifier®
+Archetype Clean
+ Paul Reed Smith® Archon® (clean channel)
+Archetype Lead
+ Paul Reed Smith® Archon® (lead channel)
+ANGL Meteor
+ ENGL® Fireball 100
+Solo Lead Clean
+ Soldano SLO-100 (clean channel)
+Solo Lead Crunch
+ Soldano SLO-100 (crunch channel)
+Solo Lead OD
+ Soldano SLO-100 (overdrive channel)
+PV Panama
+ Peavey® 5150®
+Revv Gen Purple
+ Revv® Generator 120 (purple [gain 1] channel)
+Revv Gen Red
+ Revv® Generator 120 (red [gain 2] channel)
+Line 6 Elektrik
+ Line 6 Original
+Line 6 Doom
+ Line 6 Original
+Line 6 Epic
+ Line 6 Original
+Line 6 2204 Mod
+ Line 6 Original
+Line 6 Fatality
+ Line 6 Original
+Line 6 Litigator
+ Line 6 Original
+Line 6 Badonk
+ Line 6 Original
+Ampeg B-15NF
+ Ampeg® B-15NF Portaflex®
+Ampeg SVT Nrm
+ Ampeg® SVT® (normal channel)
+Ampeg SVT Brt
+ Ampeg® SVT® (bright channel)
+Ampeg SVT-4
+ Ampeg® SVT-4 PRO
+Woody Blue
+ Acoustic® 360
+Agua 51
+Aguilar® DB51
+Cali Bass
+MESA/Boogie® M9 Carbine
+Cali 400 Ch1
+MESA/Boogie® Bass 400+ (channel 1)
+Cali 400 Ch2
+MESA/Boogie® Bass 400+ (channel 2)
+G Cougar 800
+Gallien-Krueger® GK 800RB
+Del Sol 300
+Sunn® Coliseum 300
+Busy One Ch1
+Pearce BC-1 preamp (channel 1)
+Busy One Ch2
+Pearce BC-1 preamp (channel 2)
+Busy One Jump
+Pearce BC-1 preamp (jumped)
+Studio Tube Pre
+Requisite Y7 mic preamp
+################################################################################
+# Cab Models (Mono)
+################################################################################
+Soup Pro Ellipse
+1 x 6x9 Supro® S6616
+1x8 Small Tweed
+1x8 Fender® Champ
+1x12 Field Coil
+1x12 Gibson® EH185
+1x12 Fullerton
+1x12 Fender® 5C3 Tweed Deluxe
+1x12 Grammatico
+1x12 Grammatico LaGrange
+1x12 US Deluxe
+1x12 Fender® Deluxe Oxford
+1x12 Celest 12H
+1x12 ÷13 JRT 9/15 G12 H30
+1x12 Blue Bell
+1x12 Vox® AC-15 Blue
+1x12 Lead 80
+1x12 Bogner® Shiva CL80
+1x12 Cali IV
+1x12 MESA/Boogie® Mk IV
+1x12 Cali EXT
+1x12 MESA/Boogie® EVM12L
+2x12 Double C12N
+2x12 Fender® Twin C12N
+2x12 Mail C12Q
+2x12 Silvertone® 1484
+2x12 Interstate
+2x12 Dr Z® Z Best V30
+2x12 Jazz Rivet
+2x12 Roland® JC-120
+2x12 Silver Bell
+2x12 Vox® AC-30TB Silver
+2x12 Blue Bell
+2x12 Vox® AC-30 Fawn Blue
+2x12 Match H30
+1x12 Matchless® DC-30 G12H30
+2x12 Match G25
+1x12 Matchless® DC-30 Greenback 25
+4x10 Tweed P10R
+4x10 Fender® Bassman® P10R
+4x12 WhoWatt 100
+4x12 Hiwatt® AP Fane®
+4x12 Mandarin EM
+4x12 Orange® Eminence
+4x12 Greenback25
+4x12 Marshall® Basketweave G12 M25
+4x12 Greenback20
+4x12 Marshall® Basketweave G12 M20
+4x12 Blackback30
+4x12 Park® 75 G12 H30
+4x12 1960 T75
+4x12 Marshall® 1960 AT75
+4x12 Uber V30
+4x12 Bogner® Uberkab V30
+4x12 Uber T75
+4x12 Bogner® Uberkab T75
+4x12 Cali V30
+4x12 MESA/Boogie® 4FB V30
+4x12 XXL V30
+4x12 ENGL® XXL V30
+4x12 SoloLead EM
+4x12 Soldano
+1x12 Del Sol
+1x12 Sunn® Coliseum
+1x15 Ampeg B-15
+1x15 Ampeg® B-15
+1x18 Del Sol
+1x18 Sunn® Coliseum
+1x18 Woody Blue
+1x18 Acoustic® 360
+2x15 Brute
+2x15 MESA/Boogie® 2x15 EV
+4x10 Ampeg HLF
+4x10 Ampeg® SVT® 410HLF
+6x10 Cali Power
+6x10 MESA/Boogie® Power House
+8x10 Ampeg SVT E
+8x10 Ampeg® SVT®
+################################################################################
+# Mic Models (PGControls)
+################################################################################
+57 Dynamic
+Shure® SM57
+409 Dynamic
+Sennheiser® MD 409
+421 Dynamic
+Sennheiser® MD 421-U
+30 Dynamic
+Heil Sound® PR 30
+20 Dynamic
+Electro-Voice® RE20
+121 Ribbon
+Royer® R-121
+160 Ribbon
+Beyerdynamic® M 160
+4038 Ribbon
+Coles 4038
+414 Cond
+AKG® C414 TLII
+84 Cond
+Neumann® KM84
+67 Cond
+Neumann® U67
+87 Cond
+Neumann® U87
+47 Cond
+Neumann® U47
+112 Dynamic
+AKG® D112
+12 Dynamic
+AKG® D12
+7 Dynamic
+Shure® SM7
+################################################################################
+# Distortion Models (Mono)
+################################################################################
+Kinky Boost
+Xotic® EP Booster
+Deranged Master
+Dallas Rangemaster Treble Booster
+Minotaur
+Klon® Centaur
+Teemah!
+Paul Cochrane Timmy® Overdrive
+Heir Apparent
+Analogman Prince of Tone
+Alpaca Rouge
+Way Huge® Red Llama
+Compulsive Drive
+Fulltone® OCD
+Dhyana Drive
+Hermida Zendrive
+Valve Driver
+Chandler Tube Driver
+Top Secret OD
+DOD® OD-250
+Scream 808
+Ibanez® TS808 Tube Screamer®
+Hedgehog D9
+MAXON® SD9 Sonic Distortion
+Stupor OD
+BOSS® SD-1 Overdrive
+Deez One Vintage
+BOSS® DS-1 Distortion (Made-in-Japan)
+Deez One Mod
+BOSS® DS-1 Distortion (Keeley modded)
+Vermin Dist
+Pro Co RAT
+KWB
+ Benadrian Kowloon Walled Bunny Distortion
+Arbitrator Fuzz
+ Arbiter® FuzzFace®
+Triangle Fuzz
+ EHX® Big Muff Pi®
+Industrial Fuzz
+ Z.Vex Fuzz Factory
+Tycoctavia Fuzz
+ Tycobrahe® Octavia
+Wringer Fuzz
+ BOSS® FZ-2 (Garbage modded)
+Thrifter Fuzz
+ Line 6 Original
+Xenomorph Fuzz
+ Subdecay Harmonic Antangonizer
+Megaphone
+ Megaphone
+Bitcrusher
+ Line 6 Original
+Ampeg Scrambler
+ Ampeg® Scrambler Bass Overdrive
+ZeroAmp Bass DI
+ Tech 21® SansAmp Bass Driver DI V1
+Obsidian 7000
+ Darkglass® Electronics Microtubes® B7K Ultra
+Tube Drive
+ Chandler Tube Driver
+Screamer
+ Ibanez® Tube Screamer®
+Overdrive
+ DOD® Overdrive/Preamp 250
+Classic Dist
+ ProCo RAT
+Heavy Dist
+ BOSS® Metal Zone
+Colordrive
+ Colorsound® Overdriver
+Buzz Saw
+ Maestro® Fuzz Tone
+Facial Fuzz
+ Arbiter® Fuzz Face®
+Jumbo Fuzz
+ Vox® Tone Bender
+Fuzz Pi
+ EHX® Big Muff Pi®
+Jet Fuzz
+ Roland® Jet Phaser
+L6 Drive
+ Colorsound® Overdriver (modded)
+L6 Distortion
+ Line 6 Original
+Sub Oct Fuzz
+ PAiA Roctave Divider
+Octave Fuzz
+ Tycobrahe® Octavia
+Clawthorn Drive
+ Wounded Paw Battering Ram
+Legendary Drive
+ Carvin VLD1 Legacy Drive (high gain channel)
+Tone Sovereign
+ Analogman King of Tone V4
+################################################################################
+# Dynamics Models (Mono)
+################################################################################
+Deluxe Comp
+Line 6 Original
+Red Squeeze
+MXR® Dyna Comp
+Kinky Comp
+Xotic® SP Compressor
+Rochester Comp
+Ashly® CLX-52 (Sheehan modded)
+LA Studio Comp
+Teletronix® LA-2A®
+3-Band Comp
+Line 6 Original
+Noise Gate
+Line 6 Original
+Hard Gate
+Line 6 Original
+Autoswell
+Line 6 Original
+Tube Comp
+Teletronix® LA-2A®
+Red Comp
+MXR® Dyna Comp
+Blue Comp
+BOSS® CS-1
+Blue Comp Treb
+BOSS® CS-1 (Treble switch on)
+Vetta Comp
+Line 6 Original
+Vetta Juice
+Line 6 Original
+Boost Comp
+MXR® Micro Amp
+################################################################################
+# EQ Models (Stereo)
+################################################################################
+Simple EQ
+Line 6 Original
+Low and High Cut
+Line 6 Original
+Low/High Shelf
+Line 6 Original
+Parametric
+Line 6 Original
+Tilt
+Line 6 Original
+10 Band Graphic
+MXR® 10-Band Graphic EQ
+Cali Q Graphic
+MESA/Boogie® Mark IV Graphic EQ
+################################################################################
+# Modulation Models (Stereo)
+################################################################################
+Optical Trem
+ Fender® optical tremolo circuit
+60s Bias Trem
+ Vox® AC-15 Tremolo
+Tremolo/Autopan
+ BOSS® PN-2
+Harmonic Tremolo
+ Line 6 Original
+Bleat Chop Trem
+ Lightfoot Labs Goatkeeper
+Script Mod
+ Phase MXR® Phase 90
+Pebble Phaser
+ EHX® Small Stone phaser
+Ubiquitous Vibe
+ Shin-ei Uni-Vibe®
+Deluxe Phaser
+ Line 6 Original
+Gray Flanger
+ MXR® 117 Flanger
+Harmonic Flanger
+ A/DA Flanger
+Courtesan Flange
+ EHX® Deluxe EM
+Dynamix Flanger
+ Line 6 Original
+Chorus
+ Line 6 Original
+70s Chorus
+ BOSS® CE-1
+PlastiChorus
+ Arion SCH-Z (modded)
+Trinity Chorus
+ Dytronics® Tri-Stereo Chorus
+Bubble Vibrato
+ BOSS® VB-2 Vibrato
+Vibe Rotary
+ Fender® Vibratone
+122 Rotary
+ Leslie® 122
+145 Rotary
+ Leslie® 145
+Double Take
+ Line 6 Original
+AM Ring Mod
+ Line 6 Original
+Pitch Ring Mod
+ Line 6 Original
+Pattern Tremolo
+ Line 6 Original
+Panner
+ Line 6 Original
+Bias Tremolo
+ 1960 Vox® AC-15 Tremolo
+Opto Tremolo
+ 1964 Fender® Deluxe Reverb®
+Script Phase
+ MXR® Phase 90 (script logo version)
+Panned Phaser
+ Ibanez® Flying Pan
+Barberpole
+Line 6 Original
+Dual Phaser
+Mu-Tron® Bi-Phase
+U-Vibe
+Shin-ei Uni-Vibe®
+Phaser
+MXR® Phase 90
+Pitch Vibrato
+BOSS® VB-2
+Dimension
+Roland® Dimension D
+Analog Chorus
+BOSS® CE-1
+Tri Chorus
+Dytronics® Tri-Stereo Chorus
+Analog Flanger
+MXR® Flanger
+Jet Flanger
+A/DA Flanger
+AC Flanger
+MXR® Flanger
+80A Flanger
+A/DA Flanger
+Frequency Shift
+Line 6 Original
+Ring Modulator
+Line 6 Original
+Rotary Drum
+Fender® Vibratone
+Rotary Drum/Horn
+Leslie® 145
+################################################################################
+# Delay Models (Stereo)
+################################################################################
+Simple Delay
+Line 6 Original
+Mod/Chorus Echo
+Line 6 Original
+Dual Delay
+Line 6 Original
+Multitap 4
+Line 6 Original
+Multitap 6
+Line 6 Original
+Ping Pong
+Line 6 Original
+Sweep Echo
+Line 6 Original
+Ducked Delay
+TC Electronic® 2290
+Reverse Delay
+Line 6 Original
+Vintage Digital
+Line 6 Original
+Vintage Swell
+Line 6 Original
+Pitch Echo
+Line 6 Original
+Transistor Tape
+Maestro® Echoplex EP-3
+Harmony Delay
+Line 6 Original
+Bucket Brigade
+BOSS® DM-2
+Adriatic Delay
+BOSS® DM-2 (Adrian modded)
+Adriatic Swell
+Line 6 Original
+Elephant Man
+EHX® Deluxe Memory Man
+Multi Pass
+Line 6 Original
+Ping Pong Legacy
+Line 6 Original
+Dynamic
+TC Electronic® 2290
+Stereo
+Line 6 Original
+Digital
+Line 6 Original
+Dig w/Mod
+Line 6 Original
+Reverse
+Line 6 Original
+Lo Res
+Line 6 Original
+Tube Echo
+Maestro® Echoplex EP-1
+Tape Echo
+Maestro® Echoplex EP-3
+Sweep Echo
+Line 6 Original
+Echo Platter
+Binson® EchoRec®
+Analog Echo
+BOSS® DM-2
+Analog w/Mod
+EHX® Deluxe Memory Man
+Auto-Volume Echo
+Line 6 Original
+Multi-Head
+Roland® RE-101 Space Echo
+Cosmos Echo
+ Roland® RE-201 Space Echo
+################################################################################
+# Reverb Models (Stereo)
+################################################################################
+Glitz
+Line 6 Original
+Ganymede
+Line 6 Original
+Searchlights
+Line 6 Original
+Plateaux
+Line 6 Original
+Double Tank
+Line 6 Original
+Plate
+Line 6 Original
+Room
+Line 6 Original
+Chamber
+Line 6 Original
+Hall
+Line 6 Original
+Echo
+Line 6 Original
+Tile
+Line 6 Original
+Cave
+Line 6 Original
+Ducking
+Line 6 Original
+Octo
+Line 6 Original
+'63 Spring
+Line 6 Original
+Spring
+Line 6 Original
+Particle Verb
+Line 6 Original
+################################################################################
+# Pitch/Synth Models (Mono)
+################################################################################
+Pitch Wham
+Digitech® Whammy®
+Twin Harmony
+Eventide® H3000
+Simple Pitch
+Line 6 Original
+Dual Pitch
+Line 6 Original
+3 OSC Synth
+Line 6 Original
+3 Note Generator
+Line 6 Original
+4 OSC Generator
+Line 6 Original
+Bass Octaver
+EBS® OctaBass
+Smart Harmony
+Eventide® H3000
+Octi Synth
+Line 6 Original
+Synth O Matic
+Line 6 Original
+Attack Synth
+Korg® X911 Guitar Synth
+Synth String
+Roland® GR700 Guitar Synth
+Growler
+Line 6 Original
+################################################################################
+# Filter Models (Stereo)
+################################################################################
+Mutant Filter
+Musitronics® Mu-Tron® III
+Mystery Filter
+Korg® A3
+Autofilter
+Line 6 Original
+Asheville Pattrn
+Moogerfooger® MF-105M MuRF Filter
+Voice Box
+Line 6 Original
+V Tron
+Musitronics® Mu-Tron® III
+Q Filter
+Line 6 Original
+Seeker
+Z Vex Seek Wah
+Obi Wah
+Oberheim® voltage-controlled S&H filter
+Tron Up
+Musitronics® Mu-Tron® III (up position)
+Tron Down
+Musitronics® Mu-Tron® III (down position)
+Throbber
+Electrix® Filter Factory
+Slow Filter
+Line 6 Original
+Spin Cycle
+Craig Anderton's Wah/Anti-Wah
+Comet Trails
+Line 6 Original
+################################################################################
+# Wah Models (Stereo)
+################################################################################
+UK Wah 846
+Vox® V846
+Teardrop 310
+Dunlop® Cry Baby® Fasel model 310
+Fassel
+Dunlop® Cry Baby® Super
+Weeper
+Arbiter® Cry Baby®
+Chrome
+Vox® V847
+Chrome Custom
+Modded Vox® V847
+Throaty
+RMC® Real McCoy 1
+Vetta Wah
+Line 6 Original
+Colorful
+Colorsound® Wah-fuzz
+Conductor
+Maestro® Boomerang
