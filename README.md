@@ -5,9 +5,10 @@ A basic tool to edit the names shown in Line 6 HX Edit or Line 6 POD Go Edit.
 # For the non-programmer...
 
 If you are just here to get the files to mod your installation, then head over to
-this site for instructions and download links:
+[this site](https://benvesco.com/store/line-6-edit-real-names-mod) for
+instructions and download links:
 
-TBD: LINK
+[Instructions!](https://benvesco.com/store/line-6-edit-real-names-mod)
 
 # For the programmer
 
