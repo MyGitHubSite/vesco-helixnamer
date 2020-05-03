@@ -21,7 +21,7 @@ instructions and download links:
 * Fork this repo and make a pull request with your cool ideas
 * Get in touch with me to talk more!
   * On Facebook in the [Line 6 Helix Family User Group OFFICIAL and ORIGINAL](https://www.facebook.com/groups/line6helixusergroup/)
-  * On YouTube by [commenting on this video (link TBD)](https://www.youtube.com/user/bvesco)
+  * On YouTube by [commenting on this video](https://www.youtube.com/watch?v=P6Gd5LzjM3k)
 * Possible contributions:
   * Instead of `sed`, parse the JSON into a dictionary and replace the exact
     elements. This would be much less likely to replace extra text, but would
