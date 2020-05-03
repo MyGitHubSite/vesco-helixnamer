@@ -32,8 +32,7 @@ instructions and download links:
   * Directives that would be more tolerant of JSON space vs. no space between
     key and value and the `:` separator
   * Better detection of where the JSON files live instead of hard-coded paths
-  * Built in ability to keep a full backup of the original files and a command
-    arg to be able to auto-restore them
+  * Ensure a pristine backup in the parent directory before doing any processing
   * Ability to run without requiring `sudo`
   * Windows compatibility?
 
@@ -139,4 +138,8 @@ Basically, have Python 3 installed and:
 
 ```
 sudo ./modelnames.py
+
+# If you have copied your original JSON files into the parent 'Line 6' directory,
+# you can reset to those original files with
+sudo ./modelnames.py --reset
 ```

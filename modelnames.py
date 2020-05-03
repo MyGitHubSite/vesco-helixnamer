@@ -1,9 +1,19 @@
 #!/usr/bin/env python3
 
-HX_MODELCATALOG = "/Applications/Line6/HX Edit.app/Contents/Resources/HX_ModelCatalog.json"
-HX_CONTROLS = "/Applications/Line6/HX Edit.app/Contents/Resources/HelixControls.json"
-PGE_MODELCATALOG = "/Applications/Line6/POD Go Edit.app/Contents/Resources/PGModelCatalog.json"
-PGE_CONTROLS = "/Applications/Line6/POD Go Edit.app/Contents/Resources/PGControls.json"
+APP_ROOT = "/Applications/Line6"
+
+HX_ROOT = f'{APP_ROOT}/HX Edit.app/Contents/Resources'
+HX_CATALOG_NAME = 'HX_ModelCatalog.json'
+HX_CONTROL_NAME = 'HelixControls.json'
+HX_MODELCATALOG = f'{HX_ROOT}/{HX_CATALOG_NAME}'
+HX_CONTROLS = f'{HX_ROOT}/{HX_CONTROL_NAME}'
+
+PG_ROOT = f'{APP_ROOT}/POD Go Edit.app/Contents/Resources'
+PG_CATALOG_NAME = 'PGModelCatalog.json'
+PG_CONTROL_NAME = 'PGControls.json'
+PG_MODELCATALOG = f'{PG_ROOT}/{PG_CATALOG_NAME}'
+PG_CONTROLS = f'{PG_ROOT}/{PG_CONTROL_NAME}'
+
 DATA_MODEL_CATALOG = "modelcatalog.dat"
 DATA_CONTROLS = "controls.dat"
 
@@ -70,8 +80,25 @@ def showRealNames(inJsonFile, withDataFrom):
             sixName = ""
             realName = ""
 
-showRealNames(inJsonFile = HX_MODELCATALOG, withDataFrom = DATA_MODEL_CATALOG)
-showRealNames(inJsonFile = HX_CONTROLS, withDataFrom = DATA_CONTROLS)
+import argparse
+parser = argparse.ArgumentParser(description='HX Edit and POD Go Edit model re-namer')
+parser.add_argument('--reset', action='store_true', help='resets the names back to the Line 6 defaults')
+args = vars(parser.parse_args())
 
-showRealNames(inJsonFile = PGE_MODELCATALOG, withDataFrom = DATA_MODEL_CATALOG)
-showRealNames(inJsonFile = PGE_CONTROLS, withDataFrom = DATA_CONTROLS)
+if args['reset']:
+    import subprocess
+    print('resetting to defalut Line 6 names')
+
+    subprocess.call(['cp', f'{APP_ROOT}/{HX_CATALOG_NAME}', HX_ROOT])
+    subprocess.call(['cp', f'{APP_ROOT}/{HX_CONTROL_NAME}', HX_ROOT])
+    subprocess.call(['cp', f'{APP_ROOT}/{PG_CATALOG_NAME}', PG_ROOT])
+    subprocess.call(['cp', f'{APP_ROOT}/{PG_CONTROL_NAME}', PG_ROOT])
+
+else:
+    print('replacing strings')
+
+    showRealNames(inJsonFile = HX_MODELCATALOG, withDataFrom = DATA_MODEL_CATALOG)
+    showRealNames(inJsonFile = HX_CONTROLS, withDataFrom = DATA_CONTROLS)
+
+    showRealNames(inJsonFile = PG_MODELCATALOG, withDataFrom = DATA_MODEL_CATALOG)
+    showRealNames(inJsonFile = PG_CONTROLS, withDataFrom = DATA_CONTROLS)

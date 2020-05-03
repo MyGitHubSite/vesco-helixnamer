@@ -31,31 +31,31 @@ Gibson® EH-185
 Voltage Queen
 Victoria Electro King
 Tweed Blues Nrm
-Fender® Bassman® (normal channel)
+Fender® Bassman® (Nrm)
 Tweed Blues Brt
-Fender® Bassman® (bright channel)
+Fender® Bassman® (Brt)
 Fullerton Nrm
-Fender® 5C3 Tweed Deluxe (normal channel)
+Fender® 5C3 Tweed Deluxe (Nrm)
 Fullerton Brt
-Fender® 5C3 Tweed Deluxe (bright channel)
+Fender® 5C3 Tweed Deluxe (Brt)
 Fullerton Jump
 Fender® 5C3 Tweed Deluxe (jumped)
 Grammatico Nrm
-Grammatico LaGrange (normal channel)
+Grammatico LaGrange (Nrm)
 Grammatico Brt
-Grammatico LaGrange (bright channel)
+Grammatico LaGrange (Brt)
 Grammatico Jump
 Grammatico LaGrange (jumped)
 US Small Tweed
 Fender® Champ®
 US Deluxe Nrm
-Fender® Deluxe Reverb® (normal channel)
+Fender® Deluxe Reverb® (Nrm)
 US Deluxe Vib
-Fender® Deluxe Reverb® (vibrato channel)
+Fender® Deluxe Reverb® (Vib)
 US Double Nrm
- Fender® Twin Reverb® (normal channel)
+ Fender® Twin Reverb® (Nrm)
 US Double Vib
- Fender® Twin Reverb® (vibrato channel)
+ Fender® Twin Reverb® (Vib)
 Mail Order Twin
  Silvertone® 1484
 Divided Duo
@@ -71,43 +71,43 @@ Essex A15
 Essex A30
  Vox® AC-30 with top boost
 A30 Fawn Nrm
- Vox® AC-30 Fawn (normal channel)
+ Vox® AC-30 Fawn (Nrm)
 A30 Fawn Brt
- Vox® AC-30 Fawn (bright channel)
+ Vox® AC-30 Fawn (Brt)
 Matchstick Ch1
- Matchless® DC30 (channel 1)
+ Matchless® DC30 (Ch 1)
 Matchstick Ch2
- Matchless® DC30 (channel 2)
+ Matchless® DC30 (Ch 2)
 Matchstick Jump
  Matchless® DC30 (jumped)
 Mandarin 80
  Orange® OR80
 Brit J45 Nrm
- Marshall® JTM-45 (normal channel)
+ Marshall® JTM-45 (Nrm)
 Brit J45 Brt
- Marshall® JTM-45 (bright channel)
+ Marshall® JTM-45 (Brt)
 Brit Trem Nrm
- Marshall® JTM-50 (normal channel)
+ Marshall® JTM-50 (Nrm)
 Brit Trem Brt
- Marshall® JTM-50 (bright channel)
+ Marshall® JTM-50 (Brt)
 Brit Trem Jump
  Marshall® JTM-50 (jumped)
 Brit Plexi Nrm
- Marshall® Super Lead 100 (normal channel)
+ Marshall® Super Lead 100 (Nrm)
 Brit Plexi Brt
- Marshall® Super Lead 100 (bright channel)
+ Marshall® Super Lead 100 (Brt)
 Brit Plexi Jump
  Marshall® Super Lead 100 (jumped)
 Brit P75 Nrm
- Park® 75 (normal channel)
+ Park® 75 (Nrm)
 Brit P75 Brt
- Park® 75 (bright channel)
+ Park® 75 (Brt)
 Brit 2204
  Marshall® JCM-800
 Placater Clean
- Friedman BE-100 (clean channel)
+ Friedman BE-100 (Clean)
 Placater Dirty
- Friedman BE-100 (BE/HBE channel)
+ Friedman BE-100 (BE/HBE)
 Cartographer
  Ben Adrian Cartographer
 German Mahadeva
@@ -115,35 +115,35 @@ German Mahadeva
 German Ubersonic
  Bogner® Überschall®
 Cali Texas Ch 1
- MESA/Boogie® Lone Star (clean channel)
+ MESA/Boogie® Lone Star (Clean)
 Cali Texas Ch 2
- MESA/Boogie® Lone Star (drive channel)
+ MESA/Boogie® Lone Star (Drive)
 Cali IV Rhythm 1
- MESA/Boogie® Mark IV (channel I)
+ MESA/Boogie® Mark IV (Ch I)
 Cali IV Rhythm 2
- MESA/Boogie® Mark IV (channel II)
+ MESA/Boogie® Mark IV (Ch II)
 Cali IV Lead
- MESA/Boogie® Mark IV (lead channel)
+ MESA/Boogie® Mark IV (Lead)
 Cali Rectifire
  MESA/Boogie® Dual Rectifier®
 Archetype Clean
- Paul Reed Smith® Archon® (clean channel)
+ Paul Reed Smith® Archon® (Clean)
 Archetype Lead
- Paul Reed Smith® Archon® (lead channel)
+ Paul Reed Smith® Archon® (Lead)
 ANGL Meteor
  ENGL® Fireball 100
 Solo Lead Clean
- Soldano SLO-100 (clean channel)
+ Soldano SLO-100 (Clean)
 Solo Lead Crunch
- Soldano SLO-100 (crunch channel)
+ Soldano SLO-100 (Crunch)
 Solo Lead OD
- Soldano SLO-100 (overdrive channel)
+ Soldano SLO-100 (OD)
 PV Panama
  Peavey® 5150®
 Revv Gen Purple
- Revv® Generator 120 (purple [gain 1] channel)
+ Revv® Generator 120 (purple)
 Revv Gen Red
- Revv® Generator 120 (red [gain 2] channel)
+ Revv® Generator 120 (red)
 Line 6 Elektrik
  Line 6 Original
 Line 6 Doom
@@ -161,9 +161,9 @@ Line 6 Badonk
 Ampeg B-15NF
  Ampeg® B-15NF Portaflex®
 Ampeg SVT Nrm
- Ampeg® SVT® (normal channel)
+ Ampeg® SVT® (Nrm)
 Ampeg SVT Brt
- Ampeg® SVT® (bright channel)
+ Ampeg® SVT® (Brt)
 Ampeg SVT-4
  Ampeg® SVT-4 PRO
 Woody Blue
@@ -173,17 +173,17 @@ Aguilar® DB51
 Cali Bass
 MESA/Boogie® M9 Carbine
 Cali 400 Ch1
-MESA/Boogie® Bass 400+ (channel 1)
+MESA/Boogie® Bass 400+ (Ch 1)
 Cali 400 Ch2
-MESA/Boogie® Bass 400+ (channel 2)
+MESA/Boogie® Bass 400+ (Ch 2)
 G Cougar 800
 Gallien-Krueger® GK 800RB
 Del Sol 300
 Sunn® Coliseum 300
 Busy One Ch1
-Pearce BC-1 preamp (channel 1)
+Pearce BC-1 preamp (Ch 1)
 Busy One Ch2
-Pearce BC-1 preamp (channel 2)
+Pearce BC-1 preamp (Ch 2)
 Busy One Jump
 Pearce BC-1 preamp (jumped)
 Studio Tube Pre
@@ -226,9 +226,9 @@ Soup Pro Ellipse
 2x12 Blue Bell
 2x12 Vox® AC-30 Fawn Blue
 2x12 Match H30
-1x12 Matchless® DC-30 G12H30
+    1x12 Matchless® DC-30 G12H30
 2x12 Match G25
-1x12 Matchless® DC-30 Greenback 25
+    1x12 Matchless® DC-30 Greenback 25
 4x10 Tweed P10R
 4x10 Fender® Bassman® P10R
 4x12 WhoWatt 100
@@ -332,15 +332,17 @@ Ibanez® TS808 Tube Screamer®
 Hedgehog D9
 MAXON® SD9 Sonic Distortion
 Stupor OD
-BOSS® SD-1 Overdrive
+    BOSS® SD-1 Overdrive
 Deez One Vintage
-BOSS® DS-1 Distortion (Made-in-Japan)
+    BOSS® DS-1 (MIJ)
 Deez One Mod
-BOSS® DS-1 Distortion (Keeley modded)
+    BOSS® DS-1 (Keeley mod)
 Vermin Dist
-Pro Co RAT
+    Pro Co RAT
 KWB
- Benadrian Kowloon Walled Bunny Distortion
+    Kowloon Walled Bunny Distortion
+Legendary Drive
+    Carvin VLD1 Legacy Drive
 Arbitrator Fuzz
  Arbiter® FuzzFace®
 Triangle Fuzz
@@ -350,11 +352,11 @@ Industrial Fuzz
 Tycoctavia Fuzz
  Tycobrahe® Octavia
 Wringer Fuzz
- BOSS® FZ-2 (Garbage modded)
+ BOSS® FZ-2 (Garbage mod)
 Thrifter Fuzz
  Line 6 Original
 Xenomorph Fuzz
- Subdecay Harmonic Antangonizer
+    Subdecay Harmonic Antagonizer
 Megaphone
  Megaphone
 Bitcrusher
@@ -388,7 +390,7 @@ Fuzz Pi
 Jet Fuzz
  Roland® Jet Phaser
 L6 Drive
- Colorsound® Overdriver (modded)
+    Colorsound® Overdriver (modded)
 L6 Distortion
  Line 6 Original
 Sub Oct Fuzz
@@ -397,8 +399,6 @@ Octave Fuzz
  Tycobrahe® Octavia
 Clawthorn Drive
  Wounded Paw Battering Ram
-Legendary Drive
- Carvin VLD1 Legacy Drive (high gain channel)
 Tone Sovereign
  Analogman King of Tone V4
 ################################################################################
@@ -411,7 +411,7 @@ MXR® Dyna Comp
 Kinky Comp
 Xotic® SP Compressor
 Rochester Comp
-Ashly® CLX-52 (Sheehan modded)
+Ashly® CLX-52 (Sheehan mod)
 LA Studio Comp
 Teletronix® LA-2A®
 3-Band Comp
@@ -582,7 +582,7 @@ Line 6 Original
 Bucket Brigade
 BOSS® DM-2
 Adriatic Delay
-BOSS® DM-2 (Adrian modded)
+BOSS® DM-2 (Adrian mod)
 Adriatic Swell
 Line 6 Original
 Elephant Man
@@ -662,9 +662,9 @@ Line 6 Original
 # Pitch/Synth Models (Mono)
 ################################################################################
 Pitch Wham
-Digitech® Whammy®
+    Digitech® Whammy®
 Twin Harmony
-Eventide® H3000
+    Twin Harmony Eventide® H3000
 Simple Pitch
 Line 6 Original
 Dual Pitch
@@ -678,7 +678,7 @@ Line 6 Original
 Bass Octaver
 EBS® OctaBass
 Smart Harmony
-Eventide® H3000
+    Smart Harmony Eventide® H3000
 Octi Synth
 Line 6 Original
 Synth O Matic
@@ -699,11 +699,11 @@ Korg® A3
 Autofilter
 Line 6 Original
 Asheville Pattrn
-Moogerfooger® MF-105M MuRF Filter
+    Moogerfooger® MF-105M MuRF
 Voice Box
 Line 6 Original
 V Tron
-Musitronics® Mu-Tron® III
+    Legacy Mu-Tron® III
 Q Filter
 Line 6 Original
 Seeker
@@ -711,9 +711,9 @@ Z Vex Seek Wah
 Obi Wah
 Oberheim® voltage-controlled S&H filter
 Tron Up
-Musitronics® Mu-Tron® III (up position)
+    Legacy Mu-Tron® III (up position)
 Tron Down
-Musitronics® Mu-Tron® III (down position)
+    Legacy Mu-Tron® III (down position)
 Throbber
 Electrix® Filter Factory
 Slow Filter
@@ -726,22 +726,22 @@ Line 6 Original
 # Wah Models (Stereo)
 ################################################################################
 UK Wah 846
-Vox® V846
+    Vox® V846
 Teardrop 310
-Dunlop® Cry Baby® Fasel model 310
+    Dunlop® Cry Baby® Fasel model 310
 Fassel
-Dunlop® Cry Baby® Super
+    Dunlop® Cry Baby® Super
 Weeper
-Arbiter® Cry Baby®
+    Arbiter® Cry Baby®
 Chrome
-Vox® V847
+    Vox® V847
 Chrome Custom
-Modded Vox® V847
+    Modded Vox® V847
 Throaty
-RMC® Real McCoy 1
+    RMC® Real McCoy 1
 Vetta Wah
-Line 6 Original
+    Line 6 Original
 Colorful
-Colorsound® Wah-fuzz
+    Colorsound® Wah-fuzz
 Conductor
-Maestro® Boomerang
+    Maestro® Boomerang
