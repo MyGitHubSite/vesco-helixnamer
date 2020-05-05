@@ -96,6 +96,10 @@ supported directives are listed here.
 * `#!NAME` replaces by looking for JSON `"name":"The Name"`
 * `#!SHORT_NAME` replaces by looking for JSON `"shortName": "The Name"`
 * `#!RAW_STRING` replaces by looking for `"The Name"`
+* `#!HX_OFF` stop processing replacements for HX Edit
+* `#!HX_ON` resume processing replacements for HX Edit
+* `#!PG_OFF` stop processing replacements for POD Go Edit
+* `#!PG_ON` resume processing replacements for POD Go Edit
 
 ### Comments
 
@@ -142,4 +146,7 @@ sudo ./modelnames.py
 # If you have copied your original JSON files into the parent 'Line 6' directory,
 # you can reset to those original files with
 sudo ./modelnames.py --reset
+
+# --dryrun flag does everything except the actual text replacements
+# -v flag for verbose (DEBUG) level logging
 ```

@@ -22,9 +22,31 @@ MODE_NAME = "#!NAME"
 MODE_SHORTNAME = "#!SHORT_NAME"
 MODE_RAWSTRING = "#!RAW_STRING"
 
+from enum import Enum
+class Editor(Enum):
+    HxEdit = 1
+    PgEdit = 2
+
 if __name__ != "__main__":
     print("wat")
     exit(1)
+
+################################################################################
+# CLI args
+import argparse
+parser = argparse.ArgumentParser(description='HX Edit and POD Go Edit model re-namer')
+parser.add_argument('-v', action='store_true', help='verbose logging at DEBUG level if not overridden by LOGLEVEL env var')
+parser.add_argument('--dryrun', action='store_true', help='does all the logging and parsing, but no actual replacements')
+parser.add_argument('--reset', action='store_true', help='resets the names back to the Line 6 defaults')
+args = vars(parser.parse_args())
+
+################################################################################
+# logging setup
+import logging
+import os
+log = logging.getLogger(__name__)
+defaultLevel = "DEBUG" if args['v'] else "INFO"
+logging.basicConfig(level=os.environ.get("LOGLEVEL", defaultLevel), format='%(levelname)8s: %(message)s')
 
 def doReplace(origText, withText, inFileName, mode):
     import subprocess
@@ -40,8 +62,9 @@ def doReplace(origText, withText, inFileName, mode):
         origText = f'"{origText}"'
         withText = f'"{withText}"'
     replacementExpr = f's/{origText}/{withText}/g'
-    print(f'mapping: {replacementExpr} in {inFileName}')
-    subprocess.call(["sed", "-i", ".bak", replacementExpr, inFileName])
+    log.debug('mapping: %s in %s', replacementExpr, inFileName)
+    if not args['dryrun']:
+        subprocess.call(["sed", "-i", ".bak", replacementExpr, inFileName])
 
 def fixChars(textToFix):
     textToFix = textToFix.replace("/", "\/")
@@ -50,7 +73,7 @@ def fixChars(textToFix):
     textToFix = textToFix.replace('®', '')
     return textToFix
 
-def showRealNames(inJsonFile, withDataFrom):
+def showRealNames(inJsonFile, withDataFrom, forEditor):
     # The raw names file has alternating lines in pairs where where the first line
     # is the "Line 6 Name" (like Kinky Boost) and the second line is the "real"
     # name (like Xotic EP Booster).
@@ -58,17 +81,44 @@ def showRealNames(inJsonFile, withDataFrom):
     name_file_raw = open(withDataFrom)
 
     # Once both are collected, a `sed` takes place and the vars are cleared.
+    doHx = True
+    doPg = True
     sixName = ""
     realName = ""
     currentMode = MODE_NAME
     for line in name_file_raw.readlines():
         line = line.strip()
-        if line.startswith("#!"):
+        # TODO: if line is HX_ON, HX_OFF, PG_ON, PG_OFF
+        if line.startswith("#!HX_OFF"):
+            doHx = False
+            if forEditor is Editor.HxEdit:
+                log.debug("Switching HX Edit OFF")
+            continue
+        elif line.startswith("#!HX_ON"):
+            doHx = True
+            if forEditor is Editor.HxEdit:
+                log.debug("Switching HX Edit ON")
+            continue
+        elif line.startswith("#!PG_OFF"):
+            doPg = False
+            if forEditor is Editor.HxEdit:
+                log.debug("Switching PG Edit OFF")
+            continue
+        elif line.startswith("#!PG_ON"):
+            doPg = True
+            if forEditor is Editor.HxEdit:
+                log.debug("Switching PG Edit ON")
+            continue
+        elif line.startswith("#!"):
             currentMode = line
-            print(f'NOW USING MODE {currentMode}')
+            log.debug('NOW USING MODE %s', currentMode)
             continue
         if line.startswith('#'):
-            print(line)
+            log.info(line)
+            continue
+        if forEditor is Editor.HxEdit and not doHx:
+            continue
+        if forEditor is Editor.PgEdit and not doPg:
             continue
         if sixName == "":
             sixName = line
@@ -80,14 +130,9 @@ def showRealNames(inJsonFile, withDataFrom):
             sixName = ""
             realName = ""
 
-import argparse
-parser = argparse.ArgumentParser(description='HX Edit and POD Go Edit model re-namer')
-parser.add_argument('--reset', action='store_true', help='resets the names back to the Line 6 defaults')
-args = vars(parser.parse_args())
-
 if args['reset']:
     import subprocess
-    print('resetting to defalut Line 6 names')
+    log.info('resetting to default Line 6 names')
 
     subprocess.call(['cp', f'{APP_ROOT}/{HX_CATALOG_NAME}', HX_ROOT])
     subprocess.call(['cp', f'{APP_ROOT}/{HX_CONTROL_NAME}', HX_ROOT])
@@ -95,10 +140,10 @@ if args['reset']:
     subprocess.call(['cp', f'{APP_ROOT}/{PG_CONTROL_NAME}', PG_ROOT])
 
 else:
-    print('replacing strings')
+    log.info('replacing strings')
 
-    showRealNames(inJsonFile = HX_MODELCATALOG, withDataFrom = DATA_MODEL_CATALOG)
-    showRealNames(inJsonFile = HX_CONTROLS, withDataFrom = DATA_CONTROLS)
+    showRealNames(inJsonFile = HX_MODELCATALOG, withDataFrom = DATA_MODEL_CATALOG, forEditor=Editor.HxEdit)
+    showRealNames(inJsonFile = HX_CONTROLS, withDataFrom = DATA_CONTROLS, forEditor=Editor.HxEdit)
 
-    showRealNames(inJsonFile = PG_MODELCATALOG, withDataFrom = DATA_MODEL_CATALOG)
-    showRealNames(inJsonFile = PG_CONTROLS, withDataFrom = DATA_CONTROLS)
+    showRealNames(inJsonFile = PG_MODELCATALOG, withDataFrom = DATA_MODEL_CATALOG, forEditor=Editor.PgEdit)
+    showRealNames(inJsonFile = PG_CONTROLS, withDataFrom = DATA_CONTROLS, forEditor=Editor.PgEdit)
